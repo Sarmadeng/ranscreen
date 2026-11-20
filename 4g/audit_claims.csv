@@ -1,0 +1,7 @@
+claim,value,ci,passes
+standard certificate falls below nominal somewhere,0.0,"[0.000,0.008]",True
+charged certificate worst-case coverage,0.926,"[0.900,0.946]",True
+"power preserved by the charge (temp>=1.2, n=20k)",0.997 -> 0.997,,True
+"coverage degrades with more data (temp0=0.2, aggressive)",0.358 -> 0.164 -> 0.014,,True
+ESS is high at the worst cell,ESS=2899/5000,,True
+bias is zero after the oracle correction (benign cells),0.006102387326306278,,False

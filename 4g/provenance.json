@@ -1,0 +1,32 @@
+{
+ "rows_raw": 174523,
+ "rows_kept": 92126,
+ "retained": 0.5278731170103654,
+ "traces": 132,
+ "imputed_fraction": {
+  "SNR": 0.2645181599114257,
+  "CQI": 0.2645073052124265,
+  "RSRQ": 0.011951023598115618,
+  "NRxRSRQ": 0.012624014936065797
+ },
+ "neighbour_stronger": 0.4017107005622734,
+ "ho_cost_calibrated": 0.04314801532721024,
+ "ho_events": 2292,
+ "ho_median_ratio": 0.9568519846727898,
+ "sinr_r2": 0.7592138627996652,
+ "sinr_r2_sd": 0.03937304661734804,
+ "sinr_resid_sd": 3.8831342838712555,
+ "oracle_shift_vs_point_map": 0.02242880335689153,
+ "config": {
+  "data_dir": "/home/claude/incoming/data/Dataset",
+  "rsrp_min": -140.0,
+  "rsrp_max": -44.0,
+  "margin_max": 25.0,
+  "ho_cost": 0.04314801532721024,
+  "speed_scale": 0.0015,
+  "pingpong_pen": 0.03,
+  "mc_draws": 400,
+  "seed": 0,
+  "sinr_folds": 5
+ }
+}
