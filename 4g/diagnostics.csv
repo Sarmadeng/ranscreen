@@ -1,4 +1,0 @@
-diagnostic,best_threshold,balanced_accuracy,separates,fail_range,pass_range
-ess_frac,0.6475932749310267,0.6965517241379311,False,"[0.2146,0.9293]","[0.3088,0.9963]"
-wmax_mean,23.737134844056108,0.94,False,"[13.38,7255]","[1.049,23.74]"
-cbar,0.0053551416306818,1.0,True,"[0.00618,0.3424]","[0,0.005355]"
