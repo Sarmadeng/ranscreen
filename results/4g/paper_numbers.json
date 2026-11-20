@@ -1,0 +1,24 @@
+{
+ "4g": {
+  "worst_u": "0.000 [0.000,0.008] T0=0.2 n=5000 extreme",
+  "worst_c": "0.926 [0.900,0.946] T0=0.8 n=1000 neutral",
+  "below": 1,
+  "cells": 60,
+  "fail_u": 25,
+  "pow_u": 0.997,
+  "pow_c": 0.997,
+  "ess_worst": "2899/5000",
+  "wmax_worst": 6910
+ },
+ "5g": {
+  "worst_u": "0.000 [0.000,0.008] T0=0.2 n=20000 aggressive",
+  "worst_c": "0.936 [0.911,0.954] T0=2.0 n=1000 neutral",
+  "below": 0,
+  "cells": 60,
+  "fail_u": 21,
+  "pow_u": 1.0,
+  "pow_c": 1.0,
+  "ess_worst": "14934/20000",
+  "wmax_worst": 1431
+ }
+}
