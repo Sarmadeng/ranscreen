@@ -1,0 +1,7 @@
+claim,value,passes
+abstract: the bound fails at between a third and a half of the operating points,"4G 25/60 = 0.42, 5G 21/60 = 0.35",True
+abstract: at the worst it is wrong in every replicate,"worst standard coverage 4G 0.000, 5G 0.000",True
+"abstract: the overlap diagnostic in common use does not detect it (raw-weight Kish ESS, out of sample)","4G->5G 0.630, 5G->4G 0.790",True
+abstract: charging lifts worst-case coverage back to nominal on both corpora,"4G 0.926, 5G 0.936",True
+"abstract: the charge is bounded and division-free, and finite without support (checked numerically in tests/test_identities.py)",see test suite,True
+abstract: the charge predicts certifiability before any log is collected,"frontier vs realised gate, 97.5% of settings on both corpora",True

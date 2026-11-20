@@ -1,0 +1,29 @@
+92,126 samples (52.8% retained) from 132 traces
+handover cost calibrated on 2292 real cell changes: 0.043
+SINR model grouped-CV R2 = 0.759 +- 0.039
+[estimator family] 75s
+
+worst-case coverage over all cells, per estimator:
+charged  False  True 
+kind                 
+dr       0.000  0.944
+ips      0.952  0.952
+shrink   0.000  1.000
+snips    0.000  0.936
+switch   0.000  0.944
+
+mean acceptance where the candidate is genuinely better:
+charged  False  True 
+kind                 
+dr       0.723  0.687
+ips      0.677  0.673
+shrink   1.000  0.000
+snips    0.669  0.668
+switch   0.805  0.667
+
+mean charge per estimator and incumbent exploration (smaller certifies more):
+kind       dr     ips  shrink   snips  switch
+temp0                                        
+0.2    0.1307  0.1307  0.2141  0.1307  0.1368
+0.8    0.0535  0.0535  0.1985  0.0535  0.1046
+2.0    0.0000  0.0000  0.1704  0.0000  0.0651

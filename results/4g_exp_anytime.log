@@ -1,0 +1,24 @@
+92,126 samples (52.8% retained) from 132 traces
+handover cost calibrated on 2292 real cell changes: 0.043
+SINR model grouped-CV R2 = 0.759 +- 0.039
+[anytime] 812s
+
+worst-case coverage over all cells:
+      cov_t_fixed  cov_t_peek  cov_cs_fixed  cov_cs_peek
+M                                                       
+2.0         0.935       0.677           1.0          1.0
+5.0         0.935       0.677           1.0          1.0
+20.0        0.935       0.677           1.0          1.0
+
+acceptance where the candidate is genuinely better, by truncation level:
+      acc_cs  acc_t
+M                  
+2.0    0.629    1.0
+5.0    0.500    1.0
+20.0   0.000    1.0
+
+mean decisions needed by the confidence sequence:
+     stop_cs
+M           
+2.0   8975.0
+5.0  10753.0

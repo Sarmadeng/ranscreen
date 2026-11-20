@@ -1,0 +1,55 @@
+92,126 samples (52.8% retained) from 132 traces
+handover cost calibrated on 2292 real cell changes: 0.043
+SINR model grouped-CV R2 = 0.759 +- 0.039
+[sequential] 46s
+
+coverage by window k (nominal 0.95):
+k                         1      2      3      5      10     20    40
+temp0 H  policy                                                      
+0.4   10 aggressive    1.000  1.000  1.000  1.000  1.000    NaN   NaN
+         conservative  1.000  1.000  1.000  1.000  1.000    NaN   NaN
+         neutral       1.000  1.000  1.000  1.000  1.000    NaN   NaN
+      20 aggressive    1.000  1.000  1.000  1.000  1.000  1.000   NaN
+         conservative  0.950  1.000  1.000  1.000  1.000  1.000   NaN
+         neutral       1.000  1.000  1.000  1.000  1.000  1.000   NaN
+      40 aggressive    1.000  1.000  1.000  1.000  1.000    NaN  1.00
+         conservative  0.683  1.000  1.000  1.000  1.000    NaN  1.00
+         neutral       1.000  1.000  1.000  1.000  1.000    NaN  1.00
+1.2   10 aggressive    0.950  1.000  1.000  1.000  1.000    NaN   NaN
+         conservative  0.933  0.950  0.933  0.983  0.983    NaN   NaN
+         neutral       0.983  0.950  0.933  0.933  0.967    NaN   NaN
+      20 aggressive    0.933  1.000  1.000  1.000  1.000  1.000   NaN
+         conservative  0.850  0.967  0.950  0.967  0.983  1.000   NaN
+         neutral       0.983  0.950  0.917  0.933  0.900  0.917   NaN
+      40 aggressive    0.950  1.000  1.000  1.000  1.000    NaN  1.00
+         conservative  0.967  1.000  1.000  1.000  1.000    NaN  1.00
+         neutral       1.000  0.983  0.983  0.983  0.983    NaN  0.95
+
+acceptance by window k:
+k                         1      2      3      5      10     20     40
+temp0 H  policy                                                       
+0.4   10 aggressive    0.000  0.000  0.000  0.000  0.000    NaN    NaN
+         conservative  0.000  0.000  0.000  0.000  0.000    NaN    NaN
+         neutral       0.000  0.000  0.000  0.000  0.000    NaN    NaN
+      20 aggressive    0.000  0.000  0.000  0.000  0.000  0.000    NaN
+         conservative  0.000  0.000  0.000  0.000  0.000  0.000    NaN
+         neutral       0.000  0.000  0.000  0.000  0.000  0.000    NaN
+      40 aggressive    0.000  0.000  0.000  0.000  0.000    NaN  0.000
+         conservative  0.000  0.000  0.000  0.000  0.000    NaN  0.000
+         neutral       0.000  0.000  0.000  0.000  0.000    NaN  0.000
+1.2   10 aggressive    0.000  0.000  0.000  0.000  0.000    NaN    NaN
+         conservative  0.717  0.100  0.083  0.033  0.017    NaN    NaN
+         neutral       1.000  0.933  0.717  0.417  0.200    NaN    NaN
+      20 aggressive    0.000  0.000  0.000  0.000  0.000  0.000    NaN
+         conservative  0.933  0.150  0.100  0.033  0.017  0.000    NaN
+         neutral       1.000  0.967  0.850  0.533  0.283  0.217    NaN
+      40 aggressive    0.000  0.000  0.000  0.000  0.000    NaN  0.000
+         conservative  1.000  0.217  0.133  0.050  0.000    NaN  0.000
+         neutral       1.000  1.000  1.000  0.817  0.367    NaN  0.117
+
+cells with upward (unsafe) bias, by k:
+k
+1     5
+5     1
+10    2
+20    1

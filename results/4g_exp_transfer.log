@@ -1,0 +1,35 @@
+92,126 samples (52.8% retained) from 132 traces
+handover cost calibrated on 2292 real cell changes: 0.043
+SINR model grouped-CV R2 = 0.759 +- 0.039
+[transfer] 31s
+
+coverage against the deployment regime, charged=False:
+dst           bus    car  pedestrian  static  train
+src                                                
+bus         0.873  0.747       0.711   0.636  0.795
+car         0.443  0.732       0.497   0.590  0.479
+pedestrian  0.395  0.720       0.720   0.581  0.419
+static      0.500  0.491       0.500   0.756  0.500
+train       0.741  0.750       0.672   0.575  0.934
+
+coverage against the deployment regime, charged=True:
+dst           bus    car  pedestrian  static  train
+src                                                
+bus         0.976  0.747       0.756   0.636  0.819
+car         0.693  0.982       0.747   0.744  0.729
+pedestrian  0.645  0.729       0.970   0.581  0.669
+static      0.750  0.741       0.750   0.976  0.750
+train       0.910  0.750       0.750   0.575  0.988
+
+pooled, same regime vs across regimes:
+charged  same 
+False    False    0.587
+         True     0.803
+True     False    0.723
+         True     0.978
+
+which diagnostic predicts failure:
+diagnostic  best_threshold  balanced_accuracy  separates       fail_range      pass_range
+  ess_frac           0.648              0.697      False  [0.2146,0.9293] [0.3088,0.9963]
+ wmax_mean          23.737              0.940      False     [13.38,7255]   [1.049,23.74]
+      cbar           0.005              1.000       True [0.00618,0.3424]    [0,0.005355]

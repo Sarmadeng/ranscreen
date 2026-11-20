@@ -1,0 +1,23 @@
+92,126 samples (52.8% retained) from 132 traces
+handover cost calibrated on 2292 real cell changes: 0.043
+SINR model grouped-CV R2 = 0.759 +- 0.039
+[frontier] 1s
+[validation] 46s
+
+prediction agrees with the realised gate in 98% of settings
+
+fraction of candidate settings that are certifiable, by incumbent exploration:
+       positive  certifiable
+temp0                       
+0.2       0.111        0.000
+0.4       0.139        0.056
+0.8       0.306        0.194
+1.2       0.444        0.389
+2.0       0.583        0.583
+
+largest certifiable distance |h - 3| per incumbent temperature:
+temp0
+0.4    1.0
+0.8    2.0
+1.2    3.0
+2.0    3.0
