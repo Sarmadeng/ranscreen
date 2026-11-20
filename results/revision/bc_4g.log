@@ -1,0 +1,12 @@
+92,126 samples (52.8% retained) from 132 traces
+handover cost calibrated on 2292 real cell changes: 0.043
+SINR model grouped-CV R2 = 0.759 +- 0.039
+=== certificate comparison, 4G (80 logs per cell) ===
+correction    bound |  worst-case coverage    power
+    closed       eb |                1.000    0.000
+    closed        t |                0.912    0.791
+      none        t |                0.000    0.796
+   sampled   catoni |                0.338    0.699
+   sampled       eb |                0.988    0.000
+   sampled      mom |                0.863    0.188
+   sampled        t |                0.312    0.793
