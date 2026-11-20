@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "ranscreen: certified counterfactual screening of AI-driven handover control policies"
+message: "If you use this software or the derived records, please cite the paper."
+type: software
+authors:
+  - family-names: Rawdhan
+    given-names: Fatimah Azeez
+    affiliation: "Department of Computer Engineering and Artificial Intelligence, College of Engineering, Mustansiriyah University, Baghdad, Iraq"
+  - family-names: Ibrahim
+    given-names: Sarmad K.
+    affiliation: "Department of Computer Engineering and Artificial Intelligence, College of Engineering, Mustansiriyah University, Baghdad, Iraq"
+    email: eng_sarmadnet@uomustansiriyah.edu.iq
+repository-code: "https://github.com/Sarmadeng/ranscreen"
+license: MIT
+version: "1.0.0"
+keywords:
+  - off-policy evaluation
+  - network management
+  - handover control
+  - deployment safety
+  - concentration inequalities
+  - confidence sequences
+abstract: >-
+  Analysis code, derived per-replicate records and figure sources for a study of
+  the validity of high-confidence off-policy certificates used to screen handover
+  control policies in radio access networks, evaluated on two public 4G and 5G
+  measurement corpora.
