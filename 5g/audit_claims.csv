@@ -1,0 +1,9 @@
+claim,value,ci,passes
+standard certificate falls below nominal somewhere,0.0,"[0.000,0.008]",True
+charged certificate worst-case coverage,0.936,"[0.911,0.954]",True
+"power preserved by the charge (temp>=1.2, n=20k)",1.000 -> 1.000,,True
+"coverage degrades with more data (temp0=0.2, aggressive)",0.310 -> 0.038 -> 0.000,,True
+ESS is high at the worst cell,ESS=9728/20000,,False
+Prop. 1: zero bias where no weight is truncated,0.02355444501972869,,False
+charged statistic is pessimistic by exactly the charge,0.023031611826750842,,False
+charged cells statistically below nominal,0 of 60,,True
