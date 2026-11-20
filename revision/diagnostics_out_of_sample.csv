@@ -1,0 +1,5 @@
+diagnostic,column,in_sample_4g,threshold_4g,out_of_sample_4g_to_5g,in_sample_5g,threshold_5g,out_of_sample_5g_to_4g
+ESS on truncated weights (fraction of n),ess_trunc_frac,0.801,0.9035126849976136,0.5,0.75,0.5137889252793163,0.645
+"ESS on raw weights, Kish (fraction of n)",ess_raw_frac,0.952,0.7921017219585557,0.63,0.87,0.5822910291543052,0.79
+maximum raw importance weight,wmax,0.984,8.875233844641711,0.8,0.98,19.285580777533248,0.952
+charge c-bar,charge,1.0,3.0137735715808724e-08,0.85,0.95,0.0064336789768757,0.935

@@ -1,0 +1,83 @@
+{
+  "op_fail_4g_standard": {
+    "overall": 0.012333333333333333,
+    "lo": 0.011145354724375382,
+    "hi": 0.013646190635602785,
+    "worst_cell": 0.224,
+    "n_harmful_cells": 45
+  },
+  "op_fail_4g_charged": {
+    "overall": 0.0004,
+    "lo": 0.00022883729260383362,
+    "hi": 0.0006990972156226062,
+    "worst_cell": 0.008,
+    "n_harmful_cells": 45
+  },
+  "op_fail_5g_standard": {
+    "overall": 6.666666666666667e-05,
+    "lo": 1.8282212295961896e-05,
+    "hi": 0.00024307098722232913,
+    "worst_cell": 0.002,
+    "n_harmful_cells": 39
+  },
+  "op_fail_5g_charged": {
+    "overall": 0.0,
+    "lo": 1.3552527156068805e-20,
+    "hi": 0.00012803693777666122,
+    "worst_cell": 0.0,
+    "n_harmful_cells": 39
+  },
+  "diagnostics": [
+    {
+      "diagnostic": "ESS on truncated weights (fraction of n)",
+      "column": "ess_trunc_frac",
+      "in_sample_4g": 0.801,
+      "threshold_4g": 0.9035126849976136,
+      "out_of_sample_4g_to_5g": 0.5,
+      "in_sample_5g": 0.75,
+      "threshold_5g": 0.5137889252793163,
+      "out_of_sample_5g_to_4g": 0.645
+    },
+    {
+      "diagnostic": "ESS on raw weights, Kish (fraction of n)",
+      "column": "ess_raw_frac",
+      "in_sample_4g": 0.952,
+      "threshold_4g": 0.7921017219585557,
+      "out_of_sample_4g_to_5g": 0.63,
+      "in_sample_5g": 0.87,
+      "threshold_5g": 0.5822910291543052,
+      "out_of_sample_5g_to_4g": 0.79
+    },
+    {
+      "diagnostic": "maximum raw importance weight",
+      "column": "wmax",
+      "in_sample_4g": 0.984,
+      "threshold_4g": 8.875233844641711,
+      "out_of_sample_4g_to_5g": 0.8,
+      "in_sample_5g": 0.98,
+      "threshold_5g": 19.285580777533248,
+      "out_of_sample_5g_to_4g": 0.952
+    },
+    {
+      "diagnostic": "charge c-bar",
+      "column": "charge",
+      "in_sample_4g": 1.0,
+      "threshold_4g": 3.0137735715808724e-08,
+      "out_of_sample_4g_to_5g": 0.85,
+      "in_sample_5g": 0.95,
+      "threshold_5g": 0.0064336789768757,
+      "out_of_sample_5g_to_4g": 0.935
+    }
+  ],
+  "retention_4g": {
+    "car": 0.5878430028731845,
+    "train": 0.3421592775041051,
+    "pedestrian": 0.6314193107139671,
+    "static": 0.5335168075486534,
+    "bus": 0.44625799870166
+  },
+  "retention_5g": {
+    "Driving": 0.7385870877396301,
+    "Static": 0.7967498767113637
+  }
+}
