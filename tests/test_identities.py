@@ -6,7 +6,7 @@ These are not statistical experiments; each one is a property that must hold exa
 tolerance) for any input, so a failure means the implementation contradicts the theory.
 """
 import sys, numpy as np, pytest
-sys.path.insert(0, '/home/claude/paper')
+import pathlib as _pl; sys.path.insert(0, str(_pl.Path(__file__).resolve().parent.parent))
 from ranscreen import estimators as E
 
 RNG = np.random.default_rng(0)
